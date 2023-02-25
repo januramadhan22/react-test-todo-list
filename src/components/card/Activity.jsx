@@ -14,6 +14,11 @@ function Activity({ onModal }) {
           <HiOutlineTrash />
         </button>
       </div>
+
+      <a
+        href="/activity-groups/1"
+        className="absolute z-20 top-0 left-0 w-full h-full"
+      />
     </div>
   );
 }
